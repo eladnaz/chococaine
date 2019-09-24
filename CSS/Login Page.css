@@ -1,0 +1,80 @@
+﻿
+
+body 
+{
+    background-image : url("../Images/chocback.jpg");
+    background-attachment : fixed;
+    background-size : cover;
+    background-repeat : no-repeat;
+}
+
+.login {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    top: 175px;
+    left: 0px;
+    
+    font-size: 40px;
+    padding-right: 50px;
+    font-variant: small-caps;
+}
+
+@font-face {
+    font-family: CLB;
+    src: url("../CLB.ttf");
+}
+
+.Submit
+{
+    position : relative;
+    left : 50px;
+    font-size : 40px;
+    font-family : CLB;
+    font-variant : small-caps;
+}
+
+.UserBox
+{
+    position : relative;
+    font-size : 40px;
+    right : -10px;
+}
+
+.PassBox
+{
+    position : relative;
+    right : -8px;
+    font-size : 40px;
+}
+
+.UserText 
+{
+    position: relative;
+    top: -7px;
+    font-family: Brush Script MT;
+    color: white;
+}
+.PassText 
+{
+    position : relative;
+    top : -7px;
+    font-family: Brush Script MT;
+    color: white;
+}
+
+.rounded {
+    background: white;
+    white-space: nowrap;
+}
+
+.rc5 {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.Label
+{
+    position : relative;
+    left : 25px;
+    color : white;
+}

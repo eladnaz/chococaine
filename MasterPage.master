@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="./CSS/Master.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Header">
+        <div id="Title"> Chococaine </div>
+        <div id="subTitle">More addicting than drugs</div>
+        <div class="navBar">
+            <a href="Front.aspx">Home</a>
+            <a href="Login.aspx">Login</a>
+            <a href="Inventory.aspx">Catalogue</a>
+            <a href="Review.aspx">Review</a>
+        </div>
+    </div>
+    <div id="buffer"></div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <div class="footer">
+
+        <div class="footer_contents">
+            <div class="contact">
+                		<div class="icon">
+		                <a href="https://www.facebook.com/eshuen.lam"><img src=".\Images\facebook.png" height="50" width="50"></a>
+		                </div>
+		                <div class="icon">
+		                <a href="https://www.instagram.com/manickam_99/?hl=en "><img src=".\Images\instagram.png" height="50" width="50"></a>
+		                </div>
+		                <div class="icon">
+		                <a href="https://twitter.com/Manix_99 "><img src=".\Images\twitter.png" height="50" width="50"></a>
+		                </div>
+		                <div class="icon">
+		                <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox "><img src=".\Images\google.png" height="50" width="50"></a>
+		                </div>
+            </div>
+        </div>
+        <div class ="buffer2" ></div>
+    </div>
+    </form>
+</body>
+</html>

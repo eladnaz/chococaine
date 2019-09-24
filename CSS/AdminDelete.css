@@ -1,0 +1,98 @@
+﻿body
+{
+    background-image: url("../Images/chocback.jpg");
+    background-size: cover;
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.chocTable 
+{
+    color : white;
+}
+
+table, tr, th, td {
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    font-size: 20px;
+}
+
+table
+{
+    position : relative;
+    top : 100px;
+    left : 500px;
+}
+
+.rounded 
+{
+    background: white;
+    white-space: nowrap;
+}
+
+.rc5 
+{
+    border-radius: 15px 15px 15px 15px;
+}
+
+.Filter, .ChocFilter
+{
+    font-size : 30px;
+    position : relative;
+    text-align : center;
+    left : 800px;
+    top : 75px;
+}
+
+.Filter
+{
+    left : 810px;
+}
+
+.buffer3
+{
+    height : 300px;
+}
+
+.DeleteOutput
+{
+    color : white;
+    font-family : helvetica;
+    font-size : 30px;
+}
+
+.DeleteOutput, .Delete, .Selection, .Ide
+{
+    display : inline-block;
+    position : relative;
+    left : 540px;
+    text-align : center;
+    top : 25px;
+    font-size : 30px;
+    color : white;
+}
+
+.Ide
+{
+    left : 530px;
+}
+
+.DeleteOutput
+{
+    left : 550px;
+}
+
+.Selection
+{
+    color : black;
+}
+
+
+.Delete
+{
+    left : 550px;
+    color : black;
+}
+

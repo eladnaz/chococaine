@@ -1,0 +1,47 @@
+﻿body 
+{
+    background-image: url("../Images/chocback.jpg");
+    background-size: cover;
+    min-height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.chocAdd, .chocDelete, .chocEdit 
+{
+    border : 2px solid black;
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-image: url("../Images/jo.jpg");
+    background-size: 400px 200px;
+    text-align: center;
+    margin: 50px;
+    background-repeat: no-repeat;
+    top: 160px;
+    left: 200px;
+}
+
+.chocAdd a, .chocDelete a, .chocEdit a
+{
+    position : relative;
+    top : 40px;
+    text-decoration : none;
+    font-size : 100px;
+    font-family : Brush Script MT;
+    color : grey;
+    left : -5px;
+}
+
+.Welcome
+{
+    font-size : 50px;
+    position : relative;
+    color : white;
+    font-family : helvetica;
+    font-variant : small-caps;
+    text-align : center;
+    top : 100px;
+
+}

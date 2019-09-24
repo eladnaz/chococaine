@@ -1,0 +1,110 @@
+﻿.navBar a 
+{
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    color: white;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-variant: small-caps;
+    margin: 50px;
+    top: 30px;
+    left: 800px;
+    text-decoration: none;
+}
+
+.navBar a:hover 
+{
+    text-decoration: underline;
+}
+
+.icon 
+{
+    display: inline;
+    zoom: 1;
+    vertical-align: top;
+    font-size: 12px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    top: 25px;
+}
+
+#Header
+{
+    width: 1920px;
+    height: 200px;
+    position: fixed;
+    background-image: url("../Images/Header.jpg");
+    background-repeat: no-repeat;
+    top: -5px;
+    left: -5px;
+    border: 1px solid black;
+    z-index: 5;
+}
+
+#Title 
+{
+    position: absolute;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: Brush Script MT;
+    font-size: 100px;
+    display: block;
+}
+
+#subTitle 
+{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    left: 100px;
+    top: 125px;
+    font-variant: small-caps;
+}
+
+#buffer 
+{
+    height: 190px;
+}
+
+.footer 
+{
+    position: relative;
+    z-index: 4;
+    height: 100px;
+    width: 1920px;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+}
+
+.footer_contents 
+{
+    position: relative;
+    height: 100px;
+    width: 1920px;
+    background-color: black;
+    color: white;
+    z-index: 4;
+}
+
+
+
+@font-face 
+{
+    font-family: CLB;
+    src: url("CLB.ttf");
+}
+
+.buffer2
+{
+    height : 90px;
+}

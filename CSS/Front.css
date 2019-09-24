@@ -1,0 +1,158 @@
+﻿ #Intro {
+    height: 600px;
+}
+
+#gallery {
+    width: 1905px;
+    height: 400px;
+    background-color: black;
+    left: -10px;
+    position: relative;
+    top: -1px;
+    z-index: 1;
+}
+
+
+
+.slides {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    left: 725px;
+    top: 50px;
+}
+
+.goleft {
+    position: relative;
+    animation-name: slideleft;
+    animation-duration: 5s;
+}
+
+
+
+@keyframes slideleft {
+    0% {
+        left: -300px;
+        opacity: 0;
+    }
+
+    40% {
+        left: 700px;
+        opacity: 1;
+    }
+
+    60% {
+        left: 700px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 2000px;
+        opacity: 0;
+    }
+}
+
+#Intro {
+    position: relative;
+    top: -1px;
+    left: -10px;
+    background-image: url("../Images/wood.jpg");
+    background-size: 2750px;
+    background-repeat: no-repeat;
+    min-height: 1900px;
+    width: 1905px;
+    z-index: 3;
+}
+
+#image1 {
+    position: absolute;
+    top: -50px;
+    float: left;
+}
+
+#image2 {
+    position: absolute;
+    float: right;
+    top: 510px;
+    right: 20px;
+}
+
+#image3 {
+    position: absolute;
+    float: left;
+    top: 1200px;
+    left: -50px;
+}
+
+#intro1 {
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    float: right;
+    top: 85px;
+    right: 150px;
+}
+
+#intro2 {
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    float: left;
+    top: 300px;
+    left: 150px;
+}
+
+#intro3 {
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    float: right;
+    top: 550px;
+    right: 150px;
+}
+
+#text1 {
+    padding: 60px;
+    color: #B9B9B9;
+    font-size: 40px;
+    font-family: CLB;
+    word-wrap: break-word;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+#videobox {
+    position: relative;
+    max-height: 1000px;
+    width: 1905px;
+    left: -10px;
+    top: -2px;
+    background-image: url("../Images/chocovideo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#newspaper {
+    position: relative;
+    top: 50px;
+}
+
+#video {
+    position: relative;
+    top: -525px;
+    padding-left: 425px;
+    html
+
+{
+    position: relative;
+}
+
+@font-face {
+    font-family: CLB;
+    src: url("CLB.ttf");
+}
+

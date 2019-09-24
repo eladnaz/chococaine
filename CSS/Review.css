@@ -1,0 +1,32 @@
+﻿body 
+{
+    background-image : url("../Images/chocback.jpg");
+    background-size : cover;
+    background-repeat : no-repeat;
+    font-size : 30px;
+}
+
+.text
+{
+    color : white;
+}
+
+.rounded {
+    background: white;
+    white-space: nowrap;
+}
+
+.rc5 {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.box {
+    margin: 20px;
+    position: relative;
+}
+
+.container {
+    position: relative;
+    padding-left: 700px;
+    padding-top : 150px;
+}
